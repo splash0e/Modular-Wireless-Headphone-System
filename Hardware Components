@@ -1,0 +1,51 @@
+# Hardware Components
+
+The prototype of the **Modular Wireless Headphone System** is developed using reusable and commercially available electronic components. The primary objective is 
+to transform a legacy Bluetooth headphone into a modular wireless audio platform while improving repairability, battery life, and future upgrade capability.
+
+### Components Used
+
+1. Panasonic RP-BTD5 Bluetooth Motherboard
+* Original Bluetooth audio control PCB
+* Bluetooth communication module
+* Integrated charging and audio control circuitry
+* Reused as the primary wireless controller
+
+2. Sennheiser HD 202 Wired Headphones
+* High-quality dynamic headphone drivers
+* Used as the dedicated audio output device
+* The frequency response of the HD 202 II is between 18 Hz to 18 KHz.
+* The Sennheiser HD 202 headphones feature large 40 mm dynamic drivers equipped with neodymium magnets and ultra-lightweight diaphragms ensuring superior Audio 
+  quality in all terms.
+* Original AUX cable permanently connected to the Bluetooth motherboard
+
+3. 1500 mAh Lithium-Ion Battery
+* Replaces the original 650 mAh battery
+* Provides significantly longer playback time
+* Rechargeable single-cell battery
+
+4. USB Type-C Charging Module (Optional) as traditionally this module equipped with Micro-USB charging port
+* Replaces the original Micro-USB charging interface
+* Improves connector durability and ease of use
+* Provides compatibility with modern USB Type-C charging cables
+
+5. 100 kΩ Resistor
+* Used for signal conditioning where required
+* Helps stabilize the audio signal and minimize unwanted fluctuations during operation
+* Protects sensitive audio circuitry under specific operating conditions
+
+6. Audio Amplifier Module (CT14 Series – Optional)
+* Can be integrated if additional audio amplification is required
+* Improves output drive capability for higher-impedance headphones
+* Optional depending on the final audio output level
+
+7. Connecting Wires and Solder Joints
+* Used to establish permanent electrical connections between hardware components
+* Ensures reliable signal transmission and mechanical stability
+
+### Design Philosophy
+
+Instead of manufacturing a completely new wireless headphone, this project focuses on extending the useful life of existing electronic hardware through 
+modular integration. The Bluetooth motherboard, battery, charging interface, and audio output are designed as replaceable components, allowing future 
+maintenance, upgrades, and hardware experimentation without replacing the entire system. This modular approach supports sustainable electronics, reduces 
+electronic waste, and encourages repair-friendly product design.
