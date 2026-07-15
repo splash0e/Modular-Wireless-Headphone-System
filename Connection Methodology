@@ -1,0 +1,20 @@
+Connection Methodology
+
+The Modular Wireless Headphone System is assembled by integrating the original Bluetooth audio controller with a dedicated wired headphone while maintaining proper 
+electrical continuity between the communication module, battery system, and audio output stage. The objective of the wiring arrangement is to provide reliable audio 
+transmission, stable power delivery, and a modular hardware structure that allows future maintenance and upgrades.
+
+During prototype development, the audio output terminals of the Bluetooth PCB are connected to the corresponding left and right headphone channels according to the 
+PCB's output configuration. Before making permanent solder joints, the pin assignments should be identified using the original PCB traces or service documentation, 
+since different Bluetooth audio boards may implement different amplifier architectures.
+
+The power subsystem consists of a rechargeable single-cell lithium-ion battery connected to the battery input terminals of the Bluetooth motherboard while maintaining 
+correct polarity throughout the circuit. The charging interface is upgraded from the original Micro-USB connector to a USB Type-C charging module to improve connector 
+durability and compatibility with modern charging accessories. The charging characteristics, however, continue to depend on the charging controller present on the PCB.
+
+Where required during prototype tuning, passive components such as resistors or capacitors may be incorporated as part of the signal-conditioning network to reduce 
+unwanted noise or improve audio stability. The exact component values should be selected based on electrical measurements and the requirements of the specific Bluetooth 
+audio circuit rather than applied universally.
+
+After completing the electrical connections, all solder joints should be inspected for continuity, proper insulation, and mechanical strength. The completed assembly 
+should then be tested for power stability, charging operation, Bluetooth pairing, and balanced audio reproduction before being enclosed in the final modular housing.
